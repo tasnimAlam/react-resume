@@ -1,46 +1,49 @@
-export const NEW_RESUME = 'NEW_RESUME';
+export const NEW_RESUME = "NEW_RESUME";
 export const newResume = () => ({
-  type: NEW_RESUME,
+	type: NEW_RESUME
 });
 
-export const TOGGLE_TOOLS = 'TOGGLE_TOOLS';
+export const TOGGLE_TOOLS = "TOGGLE_TOOLS";
 export const toggleTools = () => ({
-  type: TOGGLE_TOOLS
+	type: TOGGLE_TOOLS
 });
 
-export const CHANGE_FONT = 'CHANGE_FONT';
+export const CHANGE_FONT = "CHANGE_FONT";
 export const changeFont = font => ({
-  type: CHANGE_FONT,
-  font: font
+	type: CHANGE_FONT,
+	font: font
 });
 
-export const TOGGLE_SHOW_ITEM = 'TOGGLE_SHOW_ITEM';
+export const TOGGLE_SHOW_ITEM = "TOGGLE_SHOW_ITEM";
 export const toggleShowItem = item => ({
-  type: TOGGLE_SHOW_ITEM,
-  item: item
+	type: TOGGLE_SHOW_ITEM,
+	item: item
 });
 
-export const CHANGE_RESUME_ORDER = 'CHANGE_RESUME_ORDER';
+export const CHANGE_RESUME_ORDER = "CHANGE_RESUME_ORDER";
 export const changeResumeOrder = order => ({
-  type: CHANGE_RESUME_ORDER,
-  order: order
+	type: CHANGE_RESUME_ORDER,
+	order: order
 });
 
-export const OPEN_RESUME_EDITOR = 'OPEN_RESUME_EDITOR';
+export const OPEN_RESUME_EDITOR = "OPEN_RESUME_EDITOR";
 export const openResumeEditor = () => ({
-  type: OPEN_RESUME_EDITOR
+	type: OPEN_RESUME_EDITOR
 });
 
-export const UPDATE_RESUME = 'UPDATE_RESIME';
+export const CONVERT_TO_DOC = "CONVERT_TO_DOC";
+export const convertToDoc = () => ({
+	type: CONVERT_TO_DOC
+});
+
+export const UPDATE_RESUME = "UPDATE_RESIME";
 export const updateResume = resume => ({
-  type: UPDATE_RESUME,
-  resume
+	type: UPDATE_RESUME,
+	resume
 });
 
-export const UPDATE_EDITOR_STATUS = 'UPDATE_RESUME_STAUS';
+export const UPDATE_EDITOR_STATUS = "UPDATE_RESUME_STAUS";
 export const updateResumeEditorStatus = status => ({
-  type: UPDATE_EDITOR_STATUS,
-  status
-})
-
-
+	type: UPDATE_EDITOR_STATUS,
+	status
+});

@@ -197,3 +197,7 @@ input[type=checkbox]:checked {
     width: 99% !important;
   }
 }
+
+.download-btn-style {
+  cursor: grab ;
+}
