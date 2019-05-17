@@ -5,7 +5,7 @@ import { convertToDoc } from "../../actions";
 
 export class ConverterButton extends Component {
   onClickConvertButton = e => {
-    this.props.dispatch(convertToDoc());
+    // this.props.dispatch(convertToDoc());
   };
 
   render() {
